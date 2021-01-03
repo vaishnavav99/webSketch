@@ -121,9 +121,6 @@ body {
   margin-bottom: 30px;
 }
 
-
-
-
 .section-title {
     font-size: 28px;
     margin-left: 180px;
@@ -131,21 +128,23 @@ body {
     font-weight: bold;
     display: inline-block;
     position: relative;
-  }
-  .section-title:after,
-  .section-title:before {
+}
+
+.section-title:after,
+.section-title:before {
     content: '';
     position: absolute;
     bottom: 0;
-  }
-  .section-title:after {
+}
+
+.section-title:after {
     height: 2px;
     background-color: var(--dark-green);
     left: 25%;
     right: 25%;
-  }
+}
   
-  .section-title:before {
+.section-title:before {
     width: 15px;
     height: 15px;
     border: 3px solid #fff;
@@ -155,4 +154,4 @@ body {
     bottom: -6px;
     z-index: 9;
     border-radius: 50%;
-  }
+}
