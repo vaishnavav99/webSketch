@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="css/career.css">
+    <title>Career</title>
 </head>
+<header>
+    <div id="career-head">
+        <div class="hero-img">
+            <div class="hero-heading">
+            <h1>Join Our Team</h1>
+            </div>
+        </div>
+        <div class="hero-text">
+            <div class="hero-head">
+                <div class="flex">
+                <h3>Why Epoch Zero</h3>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum autem tempore, illo maiores, labore dolores enim id amet dolore reiciendis reprehenderit error eum dolorem deserunt ad quas necessitatibus praesentium architecto.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est fugit enim odio expedita explicabo assumenda earum, voluptatem atque quod illo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 <body>
-
+    <div id="Career" class="flex-column">
+        <div class="column">
+        <div class="column1">
+         <img src="./img/career2.jpg">
+        </div>
+        </div>
+        <div class="column">
+        <div class="column2">
+            <h2>Apply Here</h2>
+            <div class="form-control">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+            </div>
+            <!-- <div class="form-control">
+                <label for="positio"></label>
+                <input type="text" name="position" id="name" placeholder="Choose Position">
+            </div> -->
+            <div class="form-control">
+            <select id="cars" name="cars">
+                <option value="Position1">Select Position</option>
+                <option value="Position1">Position1</option>
+                <option value="Position2">Position2</option>
+                <option value="Position3">Position3</option>
+                <option value="Position4">Position4</option>
+            </select>
+            </div>
+            <div class="form-control">
+            <label for="email"></label>
+            <input type="email" name="email" id="name" placeholder="Enter Email">
+            </div>
+            <div class="form-control">
+            <label for="phone"></label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone">
+            </div>
+            <div class="flex-btn">
+            <div class="form-control cnt1">
+                <label for="myFile">Resume</label>
+                <input type="file" value="Choose File" id="myFile" placeholder="Attach Resume" >
+            </div>
+            <div class="form-control">
+                <input type="submit" value="Send" id="submit" class="btn btn2">
+            </div>
+            </div>
+           </div>
+         </div>
+    </div>
 </body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myFile");
+      x.disabled = true;
+    }
+    </script>
+    
 </html>
