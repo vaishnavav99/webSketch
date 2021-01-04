@@ -8,6 +8,7 @@ body {
     --dark-green: #9cc675;
 }
 
+/* TESTIMONIALS */
 .testimonial p {
  font-size: 30px;
  letter-spacing: 0.02em;
@@ -32,7 +33,7 @@ body {
 
 .gallery-thumbs {
  height: 100%;
-}
+} 
 
 .gallery-thumbs .swiper-wrapper {
  align-items: center;
@@ -155,3 +156,4 @@ body {
     z-index: 9;
     border-radius: 50%;
 }
+
