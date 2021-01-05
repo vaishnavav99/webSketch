@@ -72,38 +72,16 @@ h3.stuff{
 }
 
 /* PROJECTS BODY */
-/* .heading{
-    width: 500px;
-    margin: 50px;
-    margin-top: 60px;
-    font-size: 24px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.page-heading{
-    margin-bottom: 20px;
-    font-weight: 1000;
-    font-size: 45px;
-    line-height: 68px;
-}
-
-.page__content {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 31px;
-}
-
-.project-image{
-    margin-left: 750px;
-    margin-top: -450px;
-} */
 
 /* PROJECTS - ODD*/
 .project-content{
     margin-left: -100px;
+}
+
+.image{
+    height: 416px;
+    width: 370px;
+    margin-left: 80px;
 }
 
 p.odd{
@@ -125,6 +103,10 @@ p.odd{
 h3{
     text-align: right;
     color: darkcyan;
+}
+
+.project-img{
+    background-color: lightblue;
 }
 
 .project-tech{
@@ -165,6 +147,18 @@ svg{
 /* PROJECTS - EVEN */
 .project-content-2{
     margin-left: -30px;
+}
+
+.image-2{
+    height: 430px;
+    width: 370px;
+    margin-left: 85px;
+}
+
+.project-img-2{
+    background-color: lightblue;
+    margin-top: -430px;
+    margin-left: 520px;
 }
 
 h3.even{
@@ -212,10 +206,71 @@ p.even{
     margin-left: 20px;
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 576px){
+    .project-img{
+        width: 300px;
+        height: 400px;
+    }
+    .image{
+        display: none;
+    }
+    .project-content{
+        margin-left: 20px;
+        margin-top: -420px;
+        width: 600px;
+    }
+    li{
+        font-size: 15px;
+        white-space: nowrap;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    svg{
+         width: 25px;
+         height: 25px;
+         margin-left: 400px;
+    }
+    .project-img-2{
+        margin-left: 250px;
+    }
+    .image-2{
+        display: none;
+    }
+    .project-content-2{
+        margin-left: 5px;
+    }
+}
 
-
-
-
-
-
+@media (min-width:576px) and (max-width:768px){
+    .project-img{
+        height: 400px;
+        margin-left: 20px;
+    }
+    .image{
+        display: none;
+    }
+     .project-content{
+        margin-left: 130px;
+        margin-top: -440px;
+    }
+     li{
+        font-size: 13px;
+        white-space: nowrap;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    svg{
+         width: 25px;
+         height: 25px;
+         margin-left: 370px;
+    }
+    .project-img-2{
+        margin-left: 270px;
+    }
+    .image-2{
+        display: none;
+    }
+    
+}
 
