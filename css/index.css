@@ -107,8 +107,9 @@ Header Area starts
 
 .mySlides {display: none;}
 
-img {vertical-align: middle;
- opacity: 0.3;
+img {
+    vertical-align: middle;
+    opacity: 0.3;
 }
 
 /* Slideshow container */
@@ -124,9 +125,10 @@ img {vertical-align: middle;
 .text-head{
     margin-top: -300px;
     color: white;
-    font-size: 42px;
+    font-size: 44px;
     font-weight: bold;
-    margin-left: 200px;
+    margin-left: -30px;
+    text-align: center;
 }
 .text {
   color: #f2f2f2;
@@ -850,4 +852,50 @@ nav ul li a:hover, nav ul li a:focus{
      margin-left: 40px;
     
 }
+}
+
+@media (max-width: 576px){
+    .mobile-app-banner{
+
+        background-image: url(../img/slider11.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 1200px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    }
+    
+    .slideshow-container{
+        margin-left: 5px;
+    }
+
+    .text-head{
+        margin-top: -270px;
+        margin-left: 10px;
+    }
+    .text {
+      font-size: 17px;
+    }
+    .dot{
+        margin-top: 220px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 786px){
+    .mobile-app-banner{
+
+        background-image: url(../img/slider11.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 1300px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    }
+
+    .slideshow-container{
+        margin-left: 10px;
+    }
 }
