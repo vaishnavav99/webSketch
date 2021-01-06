@@ -2,15 +2,14 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: '2',
+    slidesPerView: 'auto',
     coverflowEffect: {
           rotate: 0,
           stretch: 0,
           depth: 50,
           modifier: 6,
           slideShadows : false,
-      },
-      
+      }
     });
     
     
@@ -29,6 +28,6 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     },
     thumbs: {
       swiper: galleryThumbs
-      }
+    }
     });
     
