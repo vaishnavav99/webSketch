@@ -280,6 +280,7 @@ p.even{
     .project-img{
         width: 300px;
         height: 400px;
+        margin-left: 15px;
     }
     .image{
         display: none;
@@ -301,13 +302,14 @@ p.even{
          margin-left: 400px;
     }
     .project-img-2{
-        margin-left: 250px;
+        margin-left: 200px;
+        width: 300px;
     }
     .image-2{
         display: none;
     }
     .project-content-2{
-        margin-left: 5px;
+        margin-left: -30px;
     }
 }
 
