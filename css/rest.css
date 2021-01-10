@@ -1,7 +1,7 @@
  
 
 @media (min-width: 768px) and (max-width: 991px) {
- .col-lg-2.col-sm-2.col-md-2.right-seach {
+ .col-lg-2.col-sm-2.col-md-2.right-search {
     position: absolute;
     right: 50%;
     top: 18px;
@@ -16,17 +16,17 @@ button.navbar-toggler {
     background: #020202;
     padding: 21px 0px 0 24px;
 }
-.col-lg-8.col-sm-7.col-md-7.nav-top-head {
+.col-lg-8.col-sm-7.col-md-7.top {
     position: absolute;
     right: 0px;
     z-index: 9;
 }
-.col-lg-8.col-sm-7.col-md-7.nav-top-head .mainmenu {
+.col-lg-8.col-sm-7.col-md-7.top .mainmenu {
     position: relative;
     text-align: right!important;
     display: unset;
 }
-.col-lg-8.col-sm-7.col-md-7.nav-top-head button.navbar-toggler {
+.col-lg-8.col-sm-7.col-md-7.top button.navbar-toggler {
     display: block;
     float: right;
     margin-top: 14px;
@@ -43,7 +43,7 @@ button.navbar-toggler {
     width: 100%;
     text-align: center;
 }
-div#navbarSupportedContent {
+div#cool {
     position: absolute;
     left: 0px;
     top: 64px;
@@ -56,7 +56,7 @@ div#navbarSupportedContent {
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
-.col-lg-2.col-sm-2.col-md-2.right-seach {
+.col-lg-2.col-sm-2.col-md-2.right-search {
     position: absolute;
     right: 50%;
     top: 18px;
@@ -68,17 +68,17 @@ button.navbar-toggler {
     color: #fff;
 }
  
-.col-lg-8.col-sm-7.col-md-7.nav-top-head {
+.col-lg-8.col-sm-7.col-md-7.top {
     position: absolute;
     right: 0px;
     z-index: 9;
 }
-.col-lg-8.col-sm-7.col-md-7.nav-top-head .mainmenu {
+.col-lg-8.col-sm-7.col-md-7.top .mainmenu {
     position: relative;
     text-align: right!important;
     display: unset;
 }
-.col-lg-8.col-sm-7.col-md-7.nav-top-head button.navbar-toggler {
+.col-lg-8.col-sm-7.col-md-7.top button.navbar-toggler {
     display: block;
     float: right;
     margin-top: 14px;
@@ -86,7 +86,7 @@ button.navbar-toggler {
  
  
 .row.custom_column .col-lg-3.col-sm-4.col-md-3 {
-        width: auto!important;
+    width: auto!important;
     flex: auto;
 }
 .mainmenu ul {
@@ -98,9 +98,12 @@ button.navbar-toggler {
     width: 100%;
     text-align: center;
 }
-div#navbarSupportedContent {
+div#cool {
     position: absolute;
     left: 0px;
     top: 64px;
 }
 }
+
+
+ 
