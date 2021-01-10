@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    /* background-color: cadetblue; */
+}
+.container .row{
+    width: 100%;
+}
+.container .first{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 80vh;
+}
+.container .second{
+     height: 200px;
+    width: 100vw; 
+    background-color:cadetblue;
+}
+.container .row  .one{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    padding: 70px 100px;
+}
+.container .column p{
+    margin-bottom: 20px;
+}
+.container .column h3{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.container .column a{
+    margin:5px;
+    text-decoration: none;
+    color: #333;
+}
+.container .column i{
+    margin-right: 10px;
+}
+
+.container .row .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin-top: 70px;
+    margin-right: 150px; 
+    height:480px;
+    width: 450px; 
+    /* width: 40%;
+    height: 100%; */
+    z-index: 10;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.container input[type=text], select,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+}
+textarea {
+   
+    height: 120px;
+    margin-bottom: 20px;
+    
+}
+  
+.container input[type=submit] {
+    background-color:cadetblue ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+.container input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  @media(max-width:768px){
+    .container .first{
+        flex-direction: column;
+        height:inherit;
+    }
+      .container .row  .one{
+        width: 100%;
+        padding: 70px 50px;
+    }
+    .container  .row .two{
+       
+        width: 100%;
+        border-radius: 10px;
+        padding: 40px;
+        margin-top: 20px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+  }
+  /* footer */
+  footer
+  {
+      width: 100vw;
+  }
+.foot-container{
+    background-color: #444444;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+footer .column{
+    padding: 60px;
+    text-align: center;
+    line-height: 1.6;
+}
+footer .first button {
+    background-color: cadetblue;
+    padding: 10px 30px;
+    border: 1px solid cadetblue;
+    margin-top: 20px;
+    color: #f4f4f4;
+}
+
+footer .column button:hover{
+    background-color:black;
+    
+}
+footer .column .connect{
+    display: flex;
+    flex-direction: column;
+}
+.foot-container .column .social {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.foot-container h4{
+    margin-bottom: 20px;
+}
+.foot-container .column .social i{
+    color: #ffffff;
+}
+.foot-container .column .social i:hover{
+    color: cadetblue;
+}
+.social-icon{
+    padding: 20px;
+}
+.subs{
+    display: flex;
+    flex-direction: row;
+}
+.subs button{
+    padding: 5px 10px;
+    margin-right:20px ;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    margin-top: 20px;
+    color: #f4f4f4;
+}
+footer .column input{
+    height: 50px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 5px;
+    border: 1px solid #9fb6cc;
+}
+@media(max-width:768px)
+{
+    .foot-container{
+    flex-direction: column;
+    }
+    .subs button{
+    margin-right:40px ;
+    } 
+   footer .column input{
+     margin-left: 40px;
+    
+}
+}
+/* chat-bot */
+.open-button {
+    background-color:#ffffff;
+    color: white;
+    padding: 15px 15px 10px 15px;
+    border: none;
+    border-radius: 60%;
+    cursor: pointer;
+    opacity: 1;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    z-index: 60;
+  }
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 20px;
+    margin: 2px;
+    background-color: cadetblue;
+    border-radius: 10px;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px 22px 0;
+    border: none;
+    background: #ffffff;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #f4f4f4;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 16px;
+    border: 2px solid #f4f4f4;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: cadetblue;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

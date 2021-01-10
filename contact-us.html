@@ -2,9 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Contact Us</title>
 </head>
 <body>
+    
+<div class="container">
+    <div class="row first">
+        <div class="column one">
+            <h3><strong>GET IN TOUCH</strong></h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iure velit id veritatis alias nisi repudiandae, fugiat ratione earum consequuntur!</P>
+            <a href=""><i class="fas fa-envelope fa-2x" style="color:cadetblue;"></i>epochzero.test@gmail.com</a>
+            <a href=""><i class="fas fa-mobile-alt fa-2x" style="color:cadetblue ;"></i>        4444455555</a>
+            <a href=""><i class="fas fa-map-marker-alt fa-2x" style="color:cadetblue ;"></i>
+            Indirapuram,sector-62,Noida</a>
+        </div>
+        <div class="column two">
+            <h3><strong>SAY SOMETHING</strong></h3>
+            <form action="/action_page.php">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="mail">Mail</label>
+                <input type="text" id="mail" name="mail" placeholder="Your Mail..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" rows="8" placeholder="Write something.."></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+    </div>
+    <button class="open-button" onclick="openForm()"><i class="fas fa-comment-alt fa-2x" style="color: cadetblue;"></i></button>
 
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1 style="color: #fff; text-align: center;">Chat</h1>
+
+    <label for="msg" style="color: #fff;"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+    <div class="row second">
+    </div>
+</div>
+
+<footer>
+    <div class="foot-container">
+        <div class="column first">
+            <h4><strong>WORK WITH US</strong></h4>
+            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia deserunt ducimus, laborum quo expedita cupiditate.</P>
+            <button type="submit" value="LEARN MORE" class="button">LEARN MORE</button>
+        </div>
+        <div class="column connect">
+             <h4><strong>CONNECT</strong></h4>
+              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, officiis quo tempore voluptate quos dolorem.</P>
+              <div class="social">
+                 <div class="social-icon">
+                 <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                 </div>
+                 <div class="social-icon">
+                 <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                 </div>
+                 <div class="social-icon">
+                 <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                 </div>
+                 <div class="social-icon">
+                 <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                 </div>
+             </div>
+
+             <h5 style="letter-spacing: 1px;">Copyright &copy; 2020 - EpochZero</h5>
+         </div>
+        <div class="column">
+             <h4><strong>SUBSCRIBE</strong></h4>
+             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis dolores nisi doloremque hic magnam.</P>
+             <div class="subs">
+             <label for="email"></label>
+             <input type="email" name="email" id="name" placeholder="Enter Email">
+             <button type="submit" value="BECOME A VIP" class="button">SUBSCRIBE</button>
+             </div>
+         </div>
+    </div>
+</footer>
 </body>
 </html>
