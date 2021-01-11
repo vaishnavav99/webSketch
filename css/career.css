@@ -11,7 +11,7 @@ header{
     color: #333;
 }
 header #career-head .hero-img{
-    background: url("../img/career1.jpg") no-repeat center center/cover; 
+    background: url("../img/career1.jpg") no-repeat center center/cover;
     height: 50vh;
     width: 100vw;
     display: flex;
@@ -232,7 +232,7 @@ select:focus {
 
 .columns button:hover{
     background-color:black;
-    
+
 }
 .columns .connect{
     display: flex;
@@ -279,10 +279,20 @@ select:focus {
     }
     .subs button{
     margin-right:40px ;
-    } 
+    }
     .columns input{
      margin-left: 40px;
-    
+
     }
 }
 
+
+input::-webkit-file-upload-button {
+  background-color: #374045;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+}
