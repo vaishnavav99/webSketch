@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <!-- BOOTSTRAP CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/projects.css">
     <title>PROJECTS</title>
 </head>
@@ -45,24 +47,11 @@
             </div>
             <div class="col-lg-10 col-sm-9 col-md-9 top">
               <nav class="navbar navbar-expand-lg mainmenu text-center">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cool">
-                  <span class="navbar-toggler-icon">
-                    <i class="fa fa-bars"></i>
-                  </span>
-                </button>
     
                 <div class="collapse navbar-collapse" id="cool">
                   <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                       <a href="#first" class="nav-link smooth-scroll">HOME</a>
-                    </li>
-    
-                    <li class="nav-item">
-                      <a href="#services" class="nav-link smooth-scroll">SERVICES</a>
-                    </li>
-    
-                    <li class="nav-item">
-                      <a href="#community" class="nav-link smooth-scroll">COMMUNITY</a>
                     </li>
     
                     <li class="nav-item">
@@ -73,26 +62,36 @@
                       <a href="#testimonials" class="nav-link smooth-scroll">TESTIMONIALS</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#carrers" class="nav-link smooth-scroll">CARRERS</a>
+                      <a href="#carrers" class="nav-link smooth-scroll">CAREERS</a>
                     </li>
                 <li class="nav-item">
                       <a href="#contact" class="nav-link smooth-scroll">CONTACT </a>
                     </li>
                   </ul>
                 </div>
+                <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
               </nav>
+
+              <!-- Mobile menu -->
+            <div id="mobile__menu" class="overlay" style="z-index: 999999;">
+                <div class="overlay__content">
+                   <a href="#">Home</a>
+                   <a href="#">Projects</a>
+                   <a href="#">Testimonials</a>
+                   <a href="#">Career</a>
+                   <a href="#">Contact</a>
+                </div>
+            </div>
+
             </div>
     
-          
     
           </div>
         </div>
       </header>
 
 
-
-
-   <section id="projects">
+ <section id="projects">
      
      <div class="container col-md-9 col-sm-10">
          <div class="project-card mb-5 mt-5">
