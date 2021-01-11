@@ -632,13 +632,6 @@ html{
     }
 }
 
-@media(max-width: 500px){
-    .overlay{
-        margin-top: -50px;
-    }
-}
-
-
 @media(min-width:565px){
   .overlay a{
     font-size: 4.62vw;

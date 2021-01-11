@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/testimonials.css">
     <title>TESTIMONIALS</title>
 </head>
@@ -35,6 +39,61 @@
 </header>
 
 <body>
+  <header class="header-1" id="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-sm-3 col-md-3">
+          <div class="logo">
+            <a href=""><img src="image/logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="col-lg-10 col-sm-9 col-md-9 top">
+          <nav class="navbar navbar-expand-lg mainmenu text-center">
+
+            <div class="collapse navbar-collapse" id="cool">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="#first" class="nav-link smooth-scroll">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#project" class="nav-link smooth-scroll">PROJECT</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#testimonials" class="nav-link smooth-scroll">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#carrers" class="nav-link smooth-scroll">CAREERS</a>
+                </li>
+            <li class="nav-item">
+                  <a href="#contact" class="nav-link smooth-scroll">CONTACT </a>
+                </li>
+              </ul>
+            </div>
+            <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
+          </nav>
+
+          <!-- Mobile menu -->
+        <div id="mobile__menu" class="overlay" style="z-index: 999999;">
+            <div class="overlay__content">
+               <a href="#">Home</a>
+               <a href="#">Projects</a>
+               <a href="#">Testimonials</a>
+               <a href="#">Career</a>
+               <a href="#">Contact</a>
+            </div>
+        </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+
+
 <section class="testimonials">
       
     <div class="testimonial-section">
@@ -156,6 +215,7 @@
       </div>
   </footer>
 
+   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
    <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
    <script src="./js/testimonials.js"></script>
 </body>
