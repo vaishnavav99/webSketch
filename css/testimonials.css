@@ -215,6 +215,12 @@ h3.stuff{
 }
 
 /* MEDIA QUERIES */
+/* @media (max-width: 500px){
+  .testimonial-section .quote {
+    margin-left: -60px;
+  }
+} */
+
  @media (max-width: 576px){
   .testimonial-section .quote p {
     font-size: 15px;

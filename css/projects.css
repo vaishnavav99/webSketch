@@ -447,3 +447,277 @@ p.even{
     
     }
 }
+
+
+
+
+
+
+
+
+.header-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background: transparent;
+    padding: 21px 40px 0 24px;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    transition: all ease 1s;
+
+
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+}
+/*----------------------------- sticky navbar----------------------------- */
+.header-1.fixedbar{
+    position: fixed !important;
+    background: #add8e6;
+    padding: 10px 40px 0 24px;
+}
+
+
+
+.logo{
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    text-align: left;
+    padding: 0 0 25px;
+
+}
+
+
+
+.logo img{
+    max-width: 29%;
+    height: auto;
+}
+
+
+.mainmenu{
+    position: relative;
+}
+
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainmenu ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 0.8;
+    padding: 10px 0px 10px;
+    position: relative;
+}
+
+
+
+.mainmenu ul li a{
+    display: block;
+    color: black;
+    font-size: 17px;
+    line-height: 0.8;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    padding: 0px;
+    letter-spacing: 1px;
+}
+
+
+
+.mainmenu ul li a:after{
+    position: absolute;
+    width: 0;
+    height: 1px;
+    content: '';
+    background: white;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    transition: all 0.4s ease-out;
+}
+
+
+.mainmenu ul li a:hover{
+    color: white;
+}
+
+.mainmenu ul li a:hover:after{
+    width: 100%;
+}
+
+.navigator{
+    position: relative;
+    padding: 21px 0 12px;
+}
+
+.navigator a{
+    display: inline-block;
+    color: white;
+    line-height: 0.8;
+    font-size: 25px;
+    margin: 0;
+}
+
+
+
+.navigator a.search{
+    margin-top: 5px;
+}
+
+.fixedHeader {
+    background: #000;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+ 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-2.col-sm-2.col-md-2.right-search {
+       position: absolute;
+       right: 50%;
+       top: 18px;
+       width: 47px;
+       margin-right: -34px;
+           z-index: 99;
+   }
+   button.navbar-toggler {
+       color: #fff;
+   }
+   .header_01 {
+       background: #020202;
+       padding: 21px 0px 0 24px;
+   }
+   .col-lg-8.col-sm-7.col-md-7.top {
+       position: absolute;
+       right: 0px;
+       z-index: 9;
+   }
+   .col-lg-8.col-sm-7.col-md-7.top .mainmenu {
+       position: relative;
+       text-align: right!important;
+       display: unset;
+   }
+   .col-lg-8.col-sm-7.col-md-7.top button.navbar-toggler {
+       display: block;
+       float: right;
+       margin-top: 14px;
+   }
+    
+    
+    
+   .mainmenu ul {
+       margin: 0;
+       padding: 0;
+       background: #020202;
+       top: 20px;
+       position: relative;	
+       width: 100%;
+       text-align: center;
+   }
+   div#cool {
+       position: absolute;
+       left: 0px;
+       top: 64px;
+   } 
+   .row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+       max-width: 33%!important;
+       flex: 0 0 33%!important;
+       width: 33%!important;
+   }
+   }
+   
+   @media (min-width: 300px) and (max-width: 767px) {
+   .col-lg-2.col-sm-2.col-md-2.right-search {
+       position: absolute;
+       right: 50%;
+       top: 18px;
+       width: 47px;
+       margin-right: -34px;
+           z-index: 99;
+   }
+   button.navbar-toggler {
+       color: #fff;
+   }
+    
+   .col-lg-8.col-sm-7.col-md-7.top {
+       position: absolute;
+       right: 0px;
+       z-index: 9;
+   }
+   .col-lg-8.col-sm-7.col-md-7.top .mainmenu {
+       position: relative;
+       text-align: right!important;
+       display: unset;
+   }
+   .col-lg-8.col-sm-7.col-md-7.top button.navbar-toggler {
+       display: block;
+       float: right;
+       margin-top: 14px;
+   }
+    
+    
+   .row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+       width: auto!important;
+       flex: auto;
+   }
+   .mainmenu ul {
+       margin: 0;
+       padding: 0;
+       background: #020202;
+       top: 20px;
+       position: relative;	
+       width: 100%;
+       text-align: center;
+   }
+   div#cool {
+       position: absolute;
+       left: 0px;
+       top: 64px;
+   }
+   }
+   
+   
