@@ -67,3 +67,17 @@ function showSlides(n){
   });
 
 })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
