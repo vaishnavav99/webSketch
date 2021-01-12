@@ -42,7 +42,6 @@
 
    .logo img{
       display: inline;
-      /* margin-top: 10px; */
       margin-top: -10px;
   } 
 
@@ -211,7 +210,7 @@ p.odd{
     position: relative;
     z-index: 2;
     padding: 25px;
-    background-color: rgb(23, 42, 69);
+    background-color: #393b44;
     color: rgb(168, 178, 209);
     font-size: 20px;
     border-radius: 3px;
@@ -219,12 +218,11 @@ p.odd{
 
 h3{
     text-align: right;
-    color: darkcyan;
+    color: #8d93ab; 
 }
 
 .project-img{
-    background-color: lightblue;
-    
+    background-color: #d6e0f0;
 }
 
 .project-tech{
@@ -249,7 +247,7 @@ li{
    list-style: none;
    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
    font-size: 18px;
-   color: darkcyan;
+   color: #8d93ab;
    margin-bottom: 7px;
    white-space: nowrap;
    margin-left: 20px;
@@ -290,7 +288,7 @@ svg{
   
   .text {
     background-color: white;
-    color: darkcyan;
+    color: #8d93ab;
     font-size: 16px;
     padding: 16px 32px;
     height: 50px;
@@ -303,7 +301,7 @@ svg{
   }
 
   .text:hover{
-    background: rgb(23, 42, 69);
+    background: #393b44;
     color: #ffffff;
   }
 
@@ -323,13 +321,14 @@ svg{
 }
 
 .project-img-2{
-    background-color: lightblue;
+    background-color: #d6e0f0;
     margin-top: -430px;
     margin-left: 520px;
 }
 
 h3.even{
     margin-left: 12px;
+    color: #8d93ab;
 }
 
 p.even{
@@ -342,7 +341,7 @@ p.even{
     position: relative;
     z-index: 2;
     padding: 25px;
-    background-color: rgb(23, 42, 69);
+    background-color: #393b44;
     color: rgb(168, 178, 209);
     font-size: 20px;
     border-radius: 3px;
@@ -442,21 +441,96 @@ p.even{
      li{
         font-size: 13px;
         white-space: nowrap;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 0px;
     }
     svg{
          width: 25px;
          height: 25px;
-         margin-left: 370px;
+         margin-left: 380px;
     }
     .project-img-2{
-        margin-left: 270px;
+        margin-left: 250px;
+        height: 400px;
     }
     .image-2{
         display: none;
     }
+
+    .project-img-2{
+        margin-top: -450px;
+    }
+
+    .read:hover .image {
+        visibility: hidden;
+    }
+
+    .read:hover .middle{
+        visibility: hidden;
+    }
+
+    .middle{
+        visibility: hidden;
+    }
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .project-img{
+        height: 500px;
+        margin-left: 20px;
+    }
+    .image{
+        display: none;
+    }
+    .project-content{
+        margin-left: 190px;
+        margin-top: -500px;
+        width: 600px;
+        height: 300px;
+    }
+
+    li{
+        font-size: 15px;
+        white-space: nowrap;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    svg{
+         width: 25px;
+         height: 25px;
+         margin-left: 430px;
+    }
+    
+    .project-img-2{
+        margin-left: 330px;
+        height: 500px;
+        margin-top: -300px;
+    }
+    .image-2{
+        display: none;
+    }
+
+    .project-content-2{
+        height: 300px;
+    }
+
+    /* .project-img-2{
+        margin-top: -300px;
+    } */
+
+    .read:hover .image {
+        visibility: hidden;
+    }
+
+    .read:hover .middle{
+        visibility: hidden;
+    }
+
+    .middle{
+        visibility: hidden;
+    } 
+} 
 
  /* footer */
  footer{
@@ -475,9 +549,11 @@ p.even{
 }
 .columns h4{
    margin-bottom: 10px;
+   font-size: 16px;
 }
 .columns p{
    margin-bottom: 10px;
+   font-size: 16px;
 }
 .columns button{
    background-color: #d6e0f0;
