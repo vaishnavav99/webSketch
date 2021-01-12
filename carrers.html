@@ -10,7 +10,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>Career</title>
 </head>
-<header>
+<body>
+  <header id="Home">
+    <div id="navbar" class="navbar top">
+        <div class="logo">
+          <img src="image/logo.png" alt="" width="50px" height="40px">
+            <h1><span class="text-primary" style="color: black;"><strong>Epoch</strong></span> Zero</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section>
     <div id="career-head">
         <div class="hero-img">
             <div class="hero-heading">
@@ -25,14 +43,13 @@
             </div>
             <div class="hero-content">
                 <div class="flex">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum autem tempore, illo maiores, labore dolores enim id amet dolore reiciendis reprehenderit error eum dolorem deserunt ad quas necessitatibus praesentium architecto.</p>
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Ipsum autem tempore, illo maiores, labore dolores enim id amet dolore reiciendis reprehenderit error eum dolorem deserunt ad quas necessitatibus praesentium architecto.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est fugit enim odio expedita explicabo assumenda earum, voluptatem atque quod illo.</p>
                 </div>
             </div>
         </div>
     </div>
-</header>
-<body>
+  </section>
     <div id="Career" class="flex-column">
         <div class="column">
         <div class="column1">
@@ -125,6 +142,31 @@
       var x = document.getElementById("myFile");
       x.disabled = true;
     }
+</script>
+
+<!-- navbar -->
+
+<script>
+     const navbar=document.getElementById("navbar");
+       let scrolled=false;
+       window.onscroll=function(){
+           if(window.pageYOffset>100)
+           {
+               navbar.classList.remove("top");
+               if(!scrolled)
+               {
+                   navbar.style.transform="translateY(-70px)";
+               }
+               setTimeout(function(){
+                navbar.style.transform = 'translateY(0)';
+                scrolled = true;
+               },200);
+           }
+           else{
+               navbar.classList.add("top");
+               scrolled=false;
+           }
+       };
 </script>
     
 </html>

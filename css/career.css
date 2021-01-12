@@ -7,10 +7,84 @@
     font-family:'Roboto Condensed', sans-serif;
     overflow-x: hidden;
 }
-header{
+
+
+/* navbar */
+#Home{
+    position: relative;
+    width: 100%;
+    color:#fff;
+  }
+  .navbar{
+   top:0;
+   width: 100%;
+   overflow: hidden;
+   background-color: #333;
+   opacity: 0.8;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   transition: 0.5s;
+   z-index: 10;
+  }
+  .top{
+    background: transparent;
+  } 
+  .logo{
+    display: inline-block; 
+    padding: 10px 30px;
+    font-weight: 400;
+  }
+   .logo img{
+      display: inline;
+      margin-top: 10px;
+  } 
+  .logo h1{
+      display: inline-block;
+  }
+  /* .navbar .menu li a:hover{
+    border-bottom: 2px solid  #0284d0;
+  }  */
+  .menu ul{
+    display: flex;
+    flex-direction: row;
+  }
+  .menu li{
+    list-style: none;
+    overflow-y: hidden;
+  }
+  .menu li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    font-size: large;
+  }
+  .menu li a:hover{
+    border: 3px solid  #0284d0;
+  }
+
+  @media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+    }
+    .menu{
+        margin-bottom: 20px;
+    }
+    .menu li a{
+        padding: 5px 10px;
+        margin:0 3px;
+    }
+    
+}
+
+
+
+section{
     color: #333;
 }
-header #career-head .hero-img{
+section #career-head .hero-img{
     background: url("../img/career1.jpg") no-repeat center center/cover;
     height: 50vh;
     width: 100vw;
@@ -36,19 +110,19 @@ header #career-head .hero-img{
     font-size: 48px;
     font-weight: lighter;
 }
-header #career-head{
+section #career-head{
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
-header #career-head .hero-text{
+section #career-head .hero-text{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-color: #f4f4f4;
+    background-color: #f1f3f8;
 }
 .hero-text .hero-content,
 .hero-text .hero-head{
@@ -92,7 +166,7 @@ header #career-head .hero-text{
     object-fit: cover;
 }
 .flex-column .column .column2{
-    background-color: #0284d0;
+    background-color: #8d93ab;
 }
 .column .column2 h2{
     font-size: 36px;
@@ -163,8 +237,12 @@ select:focus {
     padding: 10px 0;
     margin-top: 10px;
     width: 30%;
-    background-color: #333;
     color: #ffffff;
+
+    background-color:#393b44;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .form-control .btn1{
     width: 40%;
@@ -174,7 +252,7 @@ select:focus {
 }
 @media(max-width:768px)
 {
-    header #career-head .hero-text{
+    section #career-head .hero-text{
         flex-direction: column;
     }
     .hero-text .hero-content{
@@ -201,12 +279,14 @@ select:focus {
         margin-bottom: 20px;
     }
 }
+
+
  /* footer */
  footer{
      color: #ffffff;
  }
  .foot-container{
-    background-color: #444444;
+    background-color: #393b44;
     color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -223,9 +303,9 @@ select:focus {
     margin-bottom: 10px;
 }
 .columns button{
-    background-color: #9fb6cc;
+    background-color: #d6e0f0;
     padding: 10px 30px;
-    border: 1px solid #9fb6cc;
+    border: 1px solid #bbe1fa;
     margin-top: 20px;
     color: #ffffff;
 }
@@ -288,7 +368,7 @@ select:focus {
 
 
 input::-webkit-file-upload-button {
-  background-color: #374045;
+  background-color: #393b44;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
@@ -296,3 +376,6 @@ input::-webkit-file-upload-button {
   color: #fff;
   position: absolute;
 }
+
+
+
