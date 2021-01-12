@@ -1276,3 +1276,37 @@ input::-webkit-file-upload-button {
   width: 33.3%;
   padding: 5px;
 }
+
+
+
+
+/* vision and mission */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.nav {
+  display: block;
+  width: 100vw;
+}
+
+.nav>ul {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+body {
+    margin: 0px auto;
+  text-align: center;
+  
+}
+
+
+
