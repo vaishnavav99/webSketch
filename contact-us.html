@@ -8,7 +8,23 @@
     <title>Contact Us</title>
 </head>
 <body>
-    
+    <header id="Home">
+        <div id="navbar" class="navbar top">
+            <div class="logo">
+              <img src="image/logo.png" alt="" width="50px" height="40px">
+                <h1><span class="text-primary" style="color: black;"><strong></strong>Epoch</strong></span> Zero</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="carrers.html">Career</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header> 
 <div class="container">
     <div class="row first">
         <div class="column one">
@@ -98,5 +114,28 @@ function closeForm() {
          </div>
     </div>
 </footer>
+
+<script>
+    const navbar=document.getElementById("navbar");
+      let scrolled=false;
+      window.onscroll=function(){
+          if(window.pageYOffset>100)
+          {
+              navbar.classList.remove("top");
+              if(!scrolled)
+              {
+                  navbar.style.transform="translateY(-70px)";
+              }
+              setTimeout(function(){
+               navbar.style.transform = 'translateY(0)';
+               scrolled = true;
+              },200);
+          }
+          else{
+              navbar.classList.add("top");
+              scrolled=false;
+          }
+      };
+</script>
 </body>
 </html>
