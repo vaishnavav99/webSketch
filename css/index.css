@@ -1264,3 +1264,15 @@ input::-webkit-file-upload-button {
 
 
 }
+
+.row::after{
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.col-md-4{
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
