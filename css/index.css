@@ -473,7 +473,7 @@ a {
 
 /* our services-1 */
 .service-area {
-  margin-top: 0px;
+  margin-top: -10px;
   background: #a2d9ff;
 }
 
