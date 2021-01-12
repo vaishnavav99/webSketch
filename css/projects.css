@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family:'Roboto Condensed', sans-serif;
-    
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -70,7 +70,8 @@
   }
 
   .menu li a:hover{
-    border: 3px solid  #0284d0;
+    border-right: 3px solid  #0284d0;
+    border-left: 3px solid  #0284d0;
     border-bottom: none;
   }
 
