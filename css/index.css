@@ -1114,7 +1114,7 @@ input::-webkit-file-upload-button {
 
 .one h2 {
   font-size: 5rem;
-  margin: 228px 1px 0px 157px;
+margin: 12rem 0rem 0rem 8rem;
 
 }
 
@@ -1321,8 +1321,5 @@ input::-webkit-file-upload-button {
 body {
     margin: 0px auto;
   text-align: center;
-  
+
 }
-
-
-
