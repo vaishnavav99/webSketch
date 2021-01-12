@@ -26,7 +26,7 @@ body{
 .container .second{
      height: 200px;
     width: 100vw; 
-    background-color:cadetblue;
+    background-color:#0f4c75;
 }
 .container .row  .one{
     display: flex;
@@ -86,7 +86,7 @@ textarea {
 }
   
 .container input[type=submit] {
-    background-color:cadetblue ;
+    background-color:#0f4c75 ;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -123,7 +123,7 @@ textarea {
       width: 100vw;
   }
 .foot-container{
-    background-color: #444444;
+    background-color: #1b262c;
     color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -215,9 +215,11 @@ footer .column input{
     position: fixed;
     bottom: 23px;
     right: 28px;
-    
+    z-index: 60;
   }
-  
+  .open-button i{
+      color: #3282b8;
+  }
   /* The popup chat - hidden by default */
   .chat-popup {
     display: none;
@@ -249,18 +251,16 @@ footer .column input{
     min-height: 200px;
   }
   
-  /* When the textarea gets focus, do something */
   .form-container textarea:focus {
     background-color: #f4f4f4;
     outline: none;
   }
   
-  /* Set a style for the submit/send button */
   .form-container .btn {
     background-color: cadetblue;
     color: white;
     padding: 10px 16px;
-    border: 2px solid #f4f4f4;
+    border: 2px solid #f4f4f4; 
     cursor: pointer;
     width: 100%;
     margin-bottom:10px;
@@ -268,12 +268,21 @@ footer .column input{
     border-radius: 5px;
   }
   
-  /* Add a red background color to the cancel button */
+  
   .form-container .cancel {
     background-color: cadetblue;
   }
   
-  /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
+  }
+  @media(max-width:768px)
+  {
+    .open-button {
+        background-color:#333;
+        color: white;
+      }
+      .open-button i{
+        color: white;
+    }
   }
