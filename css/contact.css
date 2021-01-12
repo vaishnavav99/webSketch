@@ -8,10 +8,85 @@
 body{
     overflow-x: hidden;
 }
+
+/* navbar */
+#Home{
+    position: relative;
+    width: 100%;
+    color:#fff;
+  }
+  .navbar{
+   top:0;
+   width: 100%;
+   overflow: hidden;
+   background-color: #333;
+   opacity: 0.8;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   transition: 0.5s;
+   z-index: 100;
+  }
+  /* .top{
+    background: transparent;
+  }  */
+  .logo{
+    display: inline-block; 
+    padding: 10px 30px;
+    font-weight: 400;
+  }
+   .logo img{
+      display: inline;
+      margin-top: 10px;
+  } 
+  .logo h1{
+      display: inline-block;
+  }
+  /* .navbar .menu li a:hover{
+    border-bottom: 2px solid  #0284d0;
+  }  */
+  .menu ul{
+    display: flex;
+    flex-direction: row;
+  }
+  .menu li{
+    list-style: none;
+    overflow-y: hidden;
+  }
+  .menu li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    font-size: large;
+  }
+  .menu li a:hover{
+    border: 3px solid  cadetblue;
+  }
+  .menu li a:active{
+    border: 3px solid  cadetblue;
+  }
+
+  @media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+    }
+    .menu{
+        margin-bottom: 20px;
+    }
+    .menu li a{
+        padding: 5px 10px;
+        margin:0 3px;
+    }
+    
+}
+
 .container{
     width: 100%;
     display: flex;
     flex-direction: column; 
+    margin-top: 35px;
     /* background-color: cadetblue; */
 }
 .container .row{
@@ -26,7 +101,7 @@ body{
 .container .second{
      height: 200px;
     width: 100vw; 
-    background-color:#0f4c75;
+    background-color:cadetblue;
 }
 .container .row  .one{
     display: flex;
@@ -86,7 +161,7 @@ textarea {
 }
   
 .container input[type=submit] {
-    background-color:#0f4c75 ;
+    background-color:cadetblue ;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -123,7 +198,7 @@ textarea {
       width: 100vw;
   }
 .foot-container{
-    background-color: #1b262c;
+    background-color: #333333;
     color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -218,7 +293,7 @@ footer .column input{
     z-index: 60;
   }
   .open-button i{
-      color: #3282b8;
+      color: cadetblue;
   }
   /* The popup chat - hidden by default */
   .chat-popup {
