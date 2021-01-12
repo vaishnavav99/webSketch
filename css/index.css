@@ -1124,7 +1124,7 @@ margin: 12rem 0rem 0rem 8rem;
 }
 
 .three p {
-  padding: 82px;
+  padding: 5rem;
 margin: -8rem 0rem 0px 5rem;
 }
 
@@ -1322,4 +1322,41 @@ body {
     margin: 0px auto;
   text-align: center;
 
+}
+
+
+/* top homepage */
+
+.mobile-app-banner{
+
+    background-image: url(img/slider9.jpg.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.mobile-app-banner-content{
+
+    color: white;
+    margin-top: 220px;
+
+}
+
+.mobile-app-banner-content h1{
+
+    font-size: 56px;
+    color: white;
+    font-weight: 600;
+
+}
+
+
+.mobile-app-banner-content p{
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    margin: 30px 0px;
 }
