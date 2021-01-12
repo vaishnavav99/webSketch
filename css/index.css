@@ -1183,3 +1183,29 @@ input::-webkit-file-upload-button {
  color: #fff;
  position: absolute;
 }
+
+
+/* NAVBAR */
+
+.one{
+  height: 27rem;
+
+}
+.one h2{
+  font-size: 5rem;
+  margin: 228px 1px 0px 157px;
+}
+
+.two{
+  height: 23rem;
+  padding: 123px;
+
+}
+.three p{
+  padding: 82px;
+  margin: -145px -100px 0px 80px;
+}
+.three{
+  height: 23rem;
+
+}
