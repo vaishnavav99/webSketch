@@ -910,7 +910,7 @@ textarea.form-control {
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #cce5ff;
+  color: white !important;
 }
 
 /* counter starts here */
