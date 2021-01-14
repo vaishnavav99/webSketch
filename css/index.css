@@ -485,6 +485,12 @@ a {
   background: #a2d9ff;
 }
 
+
+
+.service-text p{
+  padding: 0;
+}
+
 .service-area p {
   margin-bottom: -5px;
 }
@@ -558,7 +564,7 @@ a {
 }
 
 .service-wrap h3 {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
   padding-bottom: 15px;
   position: relative;
