@@ -1045,11 +1045,12 @@ h6 {
 
 /* community section */
 .community {
-  color: black;
+  color:white;
 }
 
 .community-heading {
   color: #fff !important;
+  font-size: 2rem;
 }
 
 /* footer section */
