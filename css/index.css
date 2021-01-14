@@ -718,10 +718,18 @@ a {
   margin-bottom: 7px;
 }
 
-.contact .box-info .item h5 a {
-  color: inherit;
+.contact .box-info .item h5 .address{
+  margin-right: 16rem;
 }
 
+.contact .box-info .item h5 a {
+  color: inherit;
+  margin-right: 10rem;
+}
+
+.right{
+  margin-right: 12rem;
+}
 .contact .box-info .social-icon {
   position: relative;
 }
