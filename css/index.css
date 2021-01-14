@@ -17,6 +17,10 @@ body {
   overflow: hidden;
 }
 
+.community-section{
+  height: 100vh;
+}
+
 
 /* .cursor-blinking{
   position: relative;
@@ -511,7 +515,7 @@ a {
 /* our services-1 */
 .service-area {
   margin-top: -10px;
-  background: #3282b8;
+  background: #1089FF;
 }
 
 
