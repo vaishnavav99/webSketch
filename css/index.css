@@ -396,7 +396,7 @@ a {
   background-image: linear-gradient(#e66465, #9198e5);
   ;
   /* padding: 150px 150px; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .parallax-setting h2 {
@@ -416,21 +416,6 @@ a {
   text-decoration: none;
   background: transparent;
 }
-
-@media screen and (min-width:768pc){
-
-body{
-overflow-x: hidden;
-}
-
-.parallax-setting{
-
-object-fit: cover;
-}
-
-
-}
-
 
 .flipster-carousel {
   display: none;
