@@ -19,7 +19,7 @@ body{
    top:0;
    width: 100%;
    overflow: hidden;
-   background-color: #333;
+   background-color: #1b262c;
    opacity: 0.8;
    position: fixed;
    display: flex;
@@ -38,7 +38,8 @@ body{
   }
    .logo img{
       display: inline;
-      margin-top: 10px;
+      float: left;
+      margin-top: 0px;
   } 
   .logo h1{
       display: inline-block;
@@ -62,10 +63,11 @@ body{
     font-size: large;
   }
   .menu li a:hover{
-    border: 3px solid  cadetblue;
+    border-left: 3px solid  #3282b8;
+    border-right: 3px solid  #3282b8;
   }
   .menu li a:active{
-    border: 3px solid  cadetblue;
+    border: 3px solid  #3282b8;
   }
 
   @media(max-width:768px){
@@ -103,7 +105,7 @@ body{
 .container .second{
      height: 200px;
     width: 100vw; 
-    background-color:cadetblue;
+    background-color:#3282b8;
 }
 .container .row  .one{
     display: flex;
@@ -163,7 +165,7 @@ textarea {
 }
   
 .container input[type=submit] {
-    background-color:cadetblue ;
+    background-color:#3282b8;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -200,7 +202,7 @@ textarea {
       width: 100vw;
   }
 .foot-container{
-    background-color: #333333;
+    background-color: #1b262c;
     color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -213,9 +215,9 @@ footer .column{
     line-height: 1.6;
 }
 footer .first button {
-    background-color: cadetblue;
+    background-color: #3282b8;
     padding: 10px 30px;
-    border: 1px solid cadetblue;
+    border: 1px solid #3282b8;
     margin-top: 20px;
     color: #f4f4f4;
 }
@@ -242,7 +244,7 @@ footer .column .connect{
     color: #ffffff;
 }
 .foot-container .column .social i:hover{
-    color: cadetblue;
+    color: #3282b8;
 }
 .social-icon{
     padding: 20px;
@@ -254,8 +256,8 @@ footer .column .connect{
 .subs button{
     padding: 5px 10px;
     margin-right:20px ;
-    background-color: cadetblue;
-    border: 1px solid cadetblue;
+    background-color: #3282b8;
+    border: 1px solid #3282b8;
     margin-top: 20px;
     color: #f4f4f4;
 }
@@ -265,7 +267,7 @@ footer .column input{
     margin-left: 20px;
     margin-top: 20px;
     padding-left: 5px;
-    border: 1px solid #9fb6cc;
+    border: 1px solid #3282b8;
 }
 @media(max-width:768px)
 {
@@ -295,7 +297,7 @@ footer .column input{
     z-index: 60;
   }
   .open-button i{
-      color: cadetblue;
+      color: #3282b8;
   }
   /* The popup chat - hidden by default */
   .chat-popup {
@@ -313,7 +315,7 @@ footer .column input{
     max-width: 300px;
     padding: 20px;
     margin: 2px;
-    background-color: cadetblue;
+    background-color: #3282b8;
     border-radius: 10px;
   }
   
@@ -334,7 +336,7 @@ footer .column input{
   }
   
   .form-container .btn {
-    background-color: cadetblue;
+    background-color: #3282b8;
     color: white;
     padding: 10px 16px;
     border: 2px solid #f4f4f4; 
@@ -347,7 +349,7 @@ footer .column input{
   
   
   .form-container .cancel {
-    background-color: cadetblue;
+    background-color: #3282b8;
   }
   
   .form-container .btn:hover, .open-button:hover {
