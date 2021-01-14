@@ -10,13 +10,14 @@
 
 /* NAVBAR */
 
-#Home{
+#Home
+{
     position: relative;
     width: 100%;
     color:#fff;
-  }
+}
 
-  .navbar{
+.navbar{
    top:0;
    width: 100%;
    overflow: hidden;
@@ -76,7 +77,8 @@
     border-bottom: none;
   }
 
-  @media(max-width:768px){
+  @media(max-width:768px)
+  {
     .navbar{
         flex-direction: column;
     }
@@ -84,11 +86,13 @@
         margin-top: -20px;
     }
     .menu li a{
-        padding: 5px;
+        padding:5px;
         margin:0 3px;
     }
     
-}
+   }
+
+  
 
 /* PROJECTS SECTION */
 
@@ -245,7 +249,8 @@ h3{
     justify-content: flex-end;
 }
 
-li{
+ .project-tech li,
+ .project-tech-2 li{
    line-height: 1.3;
    list-style: none;
    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
@@ -255,7 +260,7 @@ li{
    white-space: nowrap;
    margin-left: 20px;
    margin-right: 0px;
-}
+} 
 
 svg{
     width: 25px;
@@ -406,7 +411,8 @@ p.even{
         margin-top: -420px;
         width: 600px;
     }
-    li{
+    .project-tech li,
+    .project-tech-2 li{
         font-size: 15px;
         white-space: nowrap;
         margin-left: 20px;
