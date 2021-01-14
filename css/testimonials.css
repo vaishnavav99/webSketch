@@ -329,6 +329,9 @@ section #testimonial-head .hero-text{
   color: #ffffff;
   text-decoration: underline;
 }
+.swiper-slide .quote a{
+  overflow-y: hidden;
+}
 
  @media (max-width: 576px){
   .testimonial-section .quote p {
