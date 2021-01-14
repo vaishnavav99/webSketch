@@ -1050,7 +1050,7 @@ h6 {
 
 .community-heading {
   color: #fff !important;
-  font-size: 2rem;
+  font-weight: 2rem;
 }
 
 /* footer section */
@@ -1060,7 +1060,7 @@ footer {
 }
 
 .foot-container {
-  background-color: #444444;
+  background-color: #1b262c;
   color: #ffffff;
   display: flex;
   flex-direction: row;
