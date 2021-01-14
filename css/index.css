@@ -425,7 +425,7 @@ a {
 }
 
 .parallax-setting {
-  background-image: linear-gradient(#e66465, #9198e5);
+  background-image: linear-gradient(#0f4c75, #1a508b);
   ;
   /* padding: 150px 150px; */
   background-attachment: fixed;
@@ -511,7 +511,7 @@ a {
 /* our services-1 */
 .service-area {
   margin-top: -10px;
-  background: #a2d9ff;
+  background: #3282b8;
 }
 
 
@@ -1045,11 +1045,12 @@ h6 {
 
 /* community section */
 .community {
-  color: black;
+  color:white;
 }
 
 .community-heading {
   color: #fff !important;
+  font-weight: 2rem;
 }
 
 /* footer section */
@@ -1059,7 +1060,7 @@ footer {
 }
 
 .foot-container {
-  background-color: #444444;
+  background-color: #1b262c;
   color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -1201,7 +1202,7 @@ margin: -8rem 0rem 0px 5rem;
 }
 
 .project-section{
-  background-color: blueviolet;
+  background-color: #BBE1FA;
 }
 
 .project-img
