@@ -396,7 +396,7 @@ a {
   background-image: linear-gradient(#e66465, #9198e5);
   ;
   /* padding: 150px 150px; */
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .parallax-setting h2 {
