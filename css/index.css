@@ -15,6 +15,33 @@ body {
   overflow: hidden;
 }
 
+
+/* .cursor-blinking{
+  position: relative;
+  margin-left: 10px;
+} */
+
+.cursor-blinking::after{
+  content: "";
+  position: absolute;
+  /* right: -5px; */
+  width: 1px;
+  height: 6%;
+  border-right: 2px solid black;
+  margin-top: 1rem;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+  0%{
+opacity: 0;
+  }
+  100%{
+opacity: 1;
+  }
+}
+
+
 .header-1 {
   position: absolute;
   left: 0;
