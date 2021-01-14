@@ -519,7 +519,10 @@ a {
 /* our services-1 */
 .service-area {
   margin-top: -10px;
-  background: #98acf8;
+  
+  background: #bce6eb;
+
+  /* background: #98acf8; */
 }
 
 
