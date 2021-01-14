@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 :root {
@@ -174,7 +174,7 @@ section #testimonial-head .hero-text{
       overflow: visible;
       padding: 20px;
       line-height: 1.4;
-      overflow-y: hidden;
+      /* overflow-y: hidden; */
   }
   .hero-text .hero-head{
       font-size: 36px;
@@ -329,9 +329,9 @@ section #testimonial-head .hero-text{
   color: #ffffff;
   text-decoration: underline;
 }
-.swiper-slide .quote a{
+/* .swiper-slide .quote a{
   overflow-y: hidden;
-}
+} */
 
  @media (max-width: 576px){
   .testimonial-section .quote p {
