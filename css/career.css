@@ -19,7 +19,7 @@
    top:0;
    width: 100%;
    overflow: hidden;
-   background-color: #333;
+   background-color: #1b262c;
    opacity: 0.8;
    position: fixed;
    display: flex;
@@ -62,7 +62,7 @@
     font-size: large;
   }
   .menu li a:hover{
-    border: 3px solid  #0284d0;
+    border: 3px solid  #0f4c75;
   }
 
   @media(max-width:768px){
@@ -166,7 +166,7 @@ section #career-head .hero-text{
     object-fit: cover;
 }
 .flex-column .column .column2{
-    background-color: #8d93ab;
+    background-color: #0f4c75;
 }
 .column .column2 h2{
     font-size: 36px;
@@ -239,7 +239,7 @@ select:focus {
     width: 30%;
     color: #ffffff;
 
-    background-color:#393b44;
+    background-color:#1b262c;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -286,7 +286,7 @@ select:focus {
      color: #ffffff;
  }
  .foot-container{
-    background-color: #393b44;
+    background-color: #1b262c;
     color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -303,9 +303,9 @@ select:focus {
     margin-bottom: 10px;
 }
 .columns button{
-    background-color: #d6e0f0;
+    background-color: #0f4c75;
     padding: 10px 30px;
-    border: 1px solid #bbe1fa;
+    border: 1px solid #0f4c75;
     margin-top: 20px;
     color: #ffffff;
 }
@@ -339,7 +339,7 @@ select:focus {
     flex-direction: row;
 }
 .subs button{
-    padding: 5px 20px;
+    padding: 5px 30px;
     padding-bottom: 3px;
     height: 50px;
 }
@@ -368,7 +368,7 @@ select:focus {
 
 
 input::-webkit-file-upload-button {
-  background-color: #393b44;
+  background-color: #1b262c;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
