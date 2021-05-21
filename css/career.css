@@ -210,9 +210,7 @@ input{
     padding: 10px;
     margin: 5px 10px;
 }
-input:focus {
-    outline-color:;
-}
+
 .form-control select
  {
     width: 70%;
