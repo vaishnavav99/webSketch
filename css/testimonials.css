@@ -27,23 +27,24 @@ body{
  top:0;
  width: 100%;
  overflow: hidden;
- background-color: #333;
- opacity: 0.8;
+ background-color: #005b96;
+ opacity: 0.9;
  position: fixed;
  display: flex;
  align-items: center;
  justify-content: space-between;
  transition: 0.5s;
  z-index: 10;
+ margin-top: -10px;
 }
 
 .top{
-  background: transparent;
+  background:  #005b96;
 } 
 
 .logo{
   display: inline-block; 
-  padding: 10px 30px;
+  padding: 10px 20px;
   font-weight: 400;
 }
 
@@ -86,9 +87,12 @@ body{
 @media(max-width:768px){
   .navbar{
       flex-direction: column;
+      margin-left: -5%;
+      width:105%;
   }
   .menu{
-      margin-top: -20px;
+      margin-top: -30px;
+     
   }
   .menu li a{
       padding: 5px;
@@ -272,7 +276,7 @@ section #testimonial-head .hero-text{
 }
 
 .testimonial-section .user-text {
-  background: var(--dark-green);
+  background: #6497b1;
   width: 90%;
   color: #fff;
   height: 100%;
@@ -417,7 +421,7 @@ section #testimonial-head .hero-text{
   color: #ffffff;
 }
 .foot-container{
- background-color: #393b44;
+ background-color: #1b262c;
  color: #ffffff;
  display: flex;
  flex-direction: row;
@@ -435,15 +439,15 @@ section #testimonial-head .hero-text{
  margin-bottom: 10px;
 }
 .columns button{
- background-color: #d6e0f0;
+ background-color: #005b96;
  padding: 10px 30px;
- border: 1px solid #bbe1fa;
+ border: 1px solid #005b96;
  margin-top: 20px;
  color: #ffffff;
 }
 
 .columns button:hover{
- background-color:black;
+ background-color:#03396c;
  
 }
 .columns .connect{
@@ -461,7 +465,7 @@ section #testimonial-head .hero-text{
  color: #ffffff;
 }
 .foot-container .columns .social i:hover{
-  color: #9fb6cc;
+  color: #005b96;
 }
 .social-icon{
  padding: 20px;
@@ -484,11 +488,11 @@ section #testimonial-head .hero-text{
  margin-top: 20px;
  margin-right: 0;
  padding-left: 5px;
- border: 1px solid #9fb6cc;
+ border: 1px solid #005b96;
 }
 .columns button{
-  background-color: #d6e0f0;
-  border: 1px solid #bbe1fa;
+  background-color: #005b96;
+  border: 1px solid #005b96;
   margin-top: 20px;
   color: #ffffff;
   font-size: 13px;

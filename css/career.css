@@ -19,17 +19,19 @@
    top:0;
    width: 100%;
    overflow: hidden;
-   background-color: #1b262c;
-   opacity: 0.8;
+   background-color: #005b96;
+   opacity: 0.9;
    position: fixed;
    display: flex;
    align-items: center;
    justify-content: space-between;
    transition: 0.5s;
    z-index: 10;
+   margin-top: -10px;
   }
   .top{
-    background: transparent;
+    background: #005b96;
+    
   } 
   .logo{
     display: inline-block; 
@@ -76,6 +78,12 @@
         padding: 5px;
         margin:0 3px;
     }
+    .hero-heading  h1{
+        color: white;
+        font-size: 48px;
+        font-weight: lighter;
+        margin-top: 40%;
+    }
     
 }
 
@@ -83,6 +91,7 @@
 
 section{
     color: #333;
+    
 }
 section #career-head .hero-img{
     background: url("../img/career1.jpg") no-repeat center center/cover;
@@ -109,6 +118,7 @@ section #career-head .hero-img{
     color: white;
     font-size: 48px;
     font-weight: lighter;
+    
 }
 section #career-head{
     width: 100%;
@@ -166,7 +176,7 @@ section #career-head .hero-text{
     object-fit: cover;
 }
 .flex-column .column .column2{
-    background-color: #0f4c75;
+    background-color: #011f4b;
 }
 .column .column2 h2{
     font-size: 36px;
@@ -239,7 +249,7 @@ select:focus {
     width: 30%;
     color: #ffffff;
 
-    background-color:#1b262c;
+    background-color:#005b96;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -286,7 +296,7 @@ footer{
     color: #ffffff;
   }
   .foot-container{
-   background-color: #393b44;
+   background-color: #1b262c;
    color: #ffffff;
    display: flex;
    flex-direction: row;
@@ -304,7 +314,7 @@ footer{
    margin-bottom: 10px;
   }
   .columns button{
-   background-color: #d6e0f0;
+   background-color: #005b96;
    padding: 10px 30px;
    border: 1px solid #bbe1fa;
    margin-top: 20px;
@@ -312,7 +322,7 @@ footer{
   }
   
   .columns button:hover{
-   background-color:black;
+   background-color:#03396c;
    
   }
   .columns .connect{
@@ -330,7 +340,7 @@ footer{
    color: #ffffff;
   }
   .foot-container .columns .social i:hover{
-    color: #9fb6cc;
+    color: #005b96;
   }
   .social-icon{
    padding: 20px;
@@ -353,11 +363,11 @@ footer{
    margin-top: 20px;
    margin-right: 0;
    padding-left: 5px;
-   border: 1px solid #9fb6cc;
+   border: 1px solid #005b96;
   }
   .columns button{
-    background-color: #d6e0f0;
-    border: 1px solid #bbe1fa;
+    background-color: #005b96;
+    border: 1px solid #005b96;
     margin-top: 20px;
     color: #ffffff;
     font-size: 13px;
@@ -380,13 +390,14 @@ footer{
 
 
 input::-webkit-file-upload-button {
-  background-color: #1b262c;
+  background-color: #005b96;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
   cursor: pointer;
   color: #fff;
   position: absolute;
+  margin-left: -5px;
 }
 
 

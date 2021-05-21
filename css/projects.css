@@ -10,59 +10,59 @@
 
 /* NAVBAR */
 
-#Home
-{
+#Home{
     position: relative;
     width: 100%;
     color:#fff;
-}
-
-.navbar{
+  }
+  
+  .navbar{
    top:0;
    width: 100%;
    overflow: hidden;
-   background-color: #333;
-   opacity: 0.8;
+   background-color: #005b96;
+   opacity: 0.9;
    position: fixed;
    display: flex;
    align-items: center;
    justify-content: space-between;
    transition: 0.5s;
    z-index: 10;
+   margin-top: -10px;
   }
-
+  
   .top{
-    background: transparent;
+    background:  #005b96;
   } 
-
+  
   .logo{
     display: inline-block; 
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-weight: 400;
   }
-
+  
    .logo img{
       display: inline;
       float: left;
-      /* margin-top: -10px; */
+      /* margin-top: 10px;  */
   } 
-
+  
   .logo h1{
       display: inline-block;
       font-size: 32px;
   }
-
+  
   .menu ul{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
   }
-
+  
   .menu li{
     list-style: none;
     overflow-y: hidden;
   }
-
+  
   .menu li a{
     text-decoration: none;
     color: #f4f4f4;
@@ -70,29 +70,29 @@
     margin: 0px 5px;
     font-size: large;
   }
-
+  
   .menu li a:hover{
-    border-right: 3px solid  #0284d0;
-    border-left: 3px solid  #0284d0;
+    border: 3px solid  #0284d0;
     border-bottom: none;
+    border-top: none;
   }
-
-  @media(max-width:768px)
-  {
+  
+  @media(max-width:768px){
     .navbar{
         flex-direction: column;
+        margin-left: -5%;
+        width:105%;
     }
     .menu{
-        margin-top: -20px;
+        margin-top: -30px;
+       
     }
     .menu li a{
-        padding:5px;
+        padding: 5px;
         margin:0 3px;
     }
     
-   }
-
-  
+  }
 
 /* PROJECTS SECTION */
 
@@ -218,18 +218,18 @@ p.odd{
     z-index: 2;
     padding: 25px;
     background-color: #393b44;
-    color: rgb(168, 178, 209);
+    color: #b3cde0;
     font-size: 20px;
     border-radius: 3px;
 }
 
 h3{
     text-align: right;
-    color: #8d93ab; 
+    color: #03396c; 
 }
 
 .project-img{
-    background-color: #d6e0f0;
+    background-color: #6497b1;
 }
 
 .project-tech{
@@ -329,14 +329,14 @@ svg{
 }
 
 .project-img-2{
-    background-color: #d6e0f0;
+    background-color: #6497b1;
     margin-top: -430px;
     margin-left: 520px;
 }
 
 h3.even{
     margin-left: 12px;
-    color: #8d93ab;
+    color: #03396c;
 }
 
 p.even{
@@ -350,7 +350,7 @@ p.even{
     z-index: 2;
     padding: 25px;
     background-color: #393b44;
-    color: rgb(168, 178, 209);
+    color: #b3cde0;
     font-size: 20px;
     border-radius: 3px;
 }
@@ -546,7 +546,7 @@ p.even{
     color: #ffffff;
 }
 .foot-container{
-   background-color: #393b44;
+   background-color: #1b262c;
    color: #ffffff;
    display: flex;
    flex-direction: row;
@@ -565,15 +565,15 @@ p.even{
    font-size: 16px;
 }
 .columns button{
-   background-color: #d6e0f0;
+   background-color: #005b96;
    padding: 10px 30px;
-   border: 1px solid #bbe1fa;
+   border: 1px solid #005b96;
    margin-top: 20px;
    color: #ffffff;
 }
 
 .columns button:hover{
-   background-color:black;
+   background-color:#03396c;
    
 }
 .columns .connect{
@@ -591,7 +591,7 @@ p.even{
    color: #ffffff;
 }
 .foot-container .columns .social i:hover{
-   color: #9fb6cc;
+   color: #005b96;
 }
 .social-icon{
    padding: 20px;
@@ -614,12 +614,12 @@ p.even{
    margin-top: 20px;
    margin-right: 0;
    padding-left: 5px;
-   border: 1px solid #9fb6cc;
+   border: 1px solid #005b96;
 }
 
 .columns button{
-    background-color: #d6e0f0;
-    border: 1px solid #bbe1fa;
+    background-color: #005b96;
+    border: 1px solid #005b96;
     margin-top: 20px;
     color: #ffffff;
     font-size: 13px;
